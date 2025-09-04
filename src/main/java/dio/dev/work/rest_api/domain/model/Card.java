@@ -9,7 +9,7 @@ public class Card {
     private Long id;
     @Column(unique = true)
     private String number;
-    @Column(name = "availabel_limit", scale = 13,precision = 2)
+    @Column(name = "availabel_limit", precision = 13, scale = 2)
     private String limit;
 
     public String getNumber() {
